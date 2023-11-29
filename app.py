@@ -12,5 +12,5 @@ def contacts():
     return render_template('contacts.html')  # Возврат шаблона contacts.html
 
 # Проверка, является ли файл, в котором выполняется данный код, главным
-if __name__ == "main":
+if __name__ == "__main__":
      app.run()  # Запуск приложения
